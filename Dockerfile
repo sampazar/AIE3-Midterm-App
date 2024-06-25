@@ -24,4 +24,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY --chown=user . $HOME/app
 
 # Run the application
-CMD ["chainlit", "run", "midterm_app.py", "--port", "7860"]
+CMD ["chainlit", "run", "app.py", "--port", "7860"]
